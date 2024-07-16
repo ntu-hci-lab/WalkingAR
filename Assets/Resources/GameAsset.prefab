@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1217606836763334587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5813374420031088346}
+  - component: {fileID: 4208405850067237482}
+  m_Layer: 0
+  m_Name: GameAsset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5813374420031088346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217606836763334587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.12321472, y: 1.2252464, z: 0.53063446}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4208405850067237482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217606836763334587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b72f4ad7ba548b45b0266d414c00a8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundAudioClips:
+  - soundName: LoadAlphabet
+    audioClip: {fileID: 8300000, guid: d0d3d8095409e3c4db96b9e41ec02890, type: 3}
+  - soundName: ShootObject
+    audioClip: {fileID: 8300000, guid: 80f077baeafc63445b1ebf248c34b5ac, type: 3}
+  - soundName: OpenChest
+    audioClip: {fileID: 8300000, guid: c5bb6219d043ee24393bb38158048416, type: 3}
+  - soundName: WeaponHit
+    audioClip: {fileID: 8300000, guid: 1517b95be716efb48a3d2bc081cdb7c0, type: 3}
+  - soundName: ReadyToLoad
+    audioClip: {fileID: 8300000, guid: 4dc0d91fb2b03254f96129ae8dc33356, type: 3}
+  - soundName: Charging
+    audioClip: {fileID: 8300000, guid: f947a1b3d5b44984a9b88c232730d848, type: 3}
+  - soundName: Rain
+    audioClip: {fileID: 8300000, guid: aaafa6cf8a14ff943a727391d4da0fe4, type: 3}
+  - soundName: Click
+    audioClip: {fileID: 8300000, guid: fed4f96db0981c446a5d2a6f56dcac86, type: 3}
+  - soundName: Success
+    audioClip: {fileID: 8300000, guid: 40c9e02ba9c5db544a55596285aaf8dd, type: 3}
+  - soundName: Bomb
+    audioClip: {fileID: 8300000, guid: 6c110ec95bc30204db991ac69178f0f6, type: 3}
+  - soundName: sign
+    audioClip: {fileID: 8300000, guid: 0b8fd9afb4674954a868f3c4e7fbc3be, type: 3}
+  - soundName: rock
+    audioClip: {fileID: 8300000, guid: a739cb5fdbe1c15478e52b6cf360a885, type: 3}
+  - soundName: blue
+    audioClip: {fileID: 8300000, guid: 5aa346e3d0aa84342b4894d88cd430f8, type: 3}
+  - soundName: red
+    audioClip: {fileID: 8300000, guid: 993d5643ec7c86646bd99ac5164fdffa, type: 3}
+  - soundName: tree
+    audioClip: {fileID: 8300000, guid: c761584ba7a227649bbde407f7b6444c, type: 3}
+  - soundName: yellow
+    audioClip: {fileID: 8300000, guid: 3fbe26ea19c3f2f46a63c762151e5d57, type: 3}
+  - soundName: hornet
+    audioClip: {fileID: 8300000, guid: 2ae38d43ac844b246b1174206b738848, type: 3}
+  - soundName: apple
+    audioClip: {fileID: 8300000, guid: 8fa14fc9b2ac6b343be6cbb254195cdb, type: 3}
+  - soundName: chest
+    audioClip: {fileID: 8300000, guid: 93438fde5ea52ef4fb045759008780a3, type: 3}
+  - soundName: lantern
+    audioClip: {fileID: 8300000, guid: 7203f4e72828c614fb708bab4425f002, type: 3}
+  - soundName: bridge
+    audioClip: {fileID: 8300000, guid: e1ed1e08ffa384c4e8863d4bae7fc53b, type: 3}
+  - soundName: Teleport
+    audioClip: {fileID: 8300000, guid: 4c17d731c14b12c468b8f759e45e041c, type: 3}
+  - soundName: DoorOpen
+    audioClip: {fileID: 8300000, guid: 6aab3d0d57433fd44a736a9f1b2fd954, type: 3}
+  spells:
+  - word: sword
+    spellType: 2
+    createdObject: {fileID: 3266366638752288413, guid: 579610af86cf873488102672a018ebec, type: 3}
+    position: {x: 0, y: 0, z: 0}
+    roatation: {x: 0, y: 0, z: 0, w: 0}
+  - word: lantern
+    spellType: 2
+    createdObject: {fileID: 610888672838020573, guid: 89eb8b36172ca7c4599e8ee791ced60f, type: 3}
+    position: {x: 0, y: 0, z: 0}
+    roatation: {x: 0, y: 0, z: 0, w: 0}
+  - word: key
+    spellType: 2
+    createdObject: {fileID: 7300127648538648382, guid: b3fd4c6e8728ff245b16dec5dabf2c63, type: 3}
+    position: {x: 0, y: 0, z: 0}
+    roatation: {x: 0, y: 0, z: 0, w: 0}
+  - word: bridge
+    spellType: 3
+    createdObject: {fileID: 3197222421768109159, guid: f6e1815ed6c3f1d47b3d3a2ab13ef48f, type: 3}
+    position: {x: -0.1, y: 0.69, z: 0.47}
+    roatation: {x: 0, y: 0, z: 0, w: 0}
+  - word: rain
+    spellType: 3
+    createdObject: {fileID: 1142934753498752311, guid: 4b238b042f1b21f43b06b898ff2e33a6, type: 3}
+    position: {x: 0, y: 0, z: 0}
+    roatation: {x: 0, y: 0, z: 0, w: 0}
+  - word: honey
+    spellType: 2
+    createdObject: {fileID: 8783389839583400494, guid: 08bdaf0c1c1839743a5e750bb0f04bd8, type: 3}
+    position: {x: 0, y: 0, z: 0}
+    roatation: {x: 0, y: 0, z: 0, w: 0}
+  - word: door
+    spellType: 3
+    createdObject: {fileID: 2386216050054506899, guid: 9322480dd35f74c4588c85c873500dab, type: 3}
+    position: {x: 0, y: 0.011, z: 3.36}
+    roatation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
+  alphabets:
+  - alphbetName: A
+    model: {fileID: -4400784519478956579, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: B
+    model: {fileID: 9081604443904126404, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: C
+    model: {fileID: -6119544408152446500, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: D
+    model: {fileID: -2097265232772899788, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: E
+    model: {fileID: -2748546158520727403, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: F
+    model: {fileID: -6832020191638538038, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: G
+    model: {fileID: -8538373282084547432, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: H
+    model: {fileID: 6716319449232808713, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: I
+    model: {fileID: -7131574293992813, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: J
+    model: {fileID: -5562366057460813101, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: K
+    model: {fileID: 4319678204910163860, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: L
+    model: {fileID: 7348602388356361604, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: M
+    model: {fileID: -7199436179968883264, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: N
+    model: {fileID: -2204600155427690001, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: O
+    model: {fileID: 7860186424809449951, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: P
+    model: {fileID: 5911182697775316917, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: Q
+    model: {fileID: -4669225197427824089, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: R
+    model: {fileID: 8175755470433343014, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: S
+    model: {fileID: -5526383760808716005, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: T
+    model: {fileID: -1011284027566934239, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: U
+    model: {fileID: 7828421384394686694, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: V
+    model: {fileID: 2314724008428091010, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: W
+    model: {fileID: 927548385916083637, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: X
+    model: {fileID: -4643665331035402438, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: Y
+    model: {fileID: 1926451485337417598, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
+  - alphbetName: Z
+    model: {fileID: -116248286039266072, guid: 32a0878b94b01f843a993075eb033c0f, type: 3}
