@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/Walking.unity
+    guid: 53c09bcbabc43544680ff0987767892c
+  - enabled: 0
+    path: Assets/Scenes/BrowserTesting.unity
+    guid: 1139df5f94f74534ea16b11ae7bcc689
+  - enabled: 1
+    path: Assets/Scenes/Design Study [Lab].unity
+    guid: 7f95355375697674ca3ce70f3d4d6e46
+  - enabled: 0
+    path: Assets/Scenes/Observational Study.unity
+    guid: ed2bfeba42dead146aa94f4279c5152c
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 335323e4a1fefd8428322ea00868ddd1, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fb9eed51effb9f2418f932a0bbd093f5, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b3e8241676757e244a3e940f3f1cb781, type: 2}
