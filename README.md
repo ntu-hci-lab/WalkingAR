@@ -11,3 +11,15 @@ UI design exploration and refinement. Our system was developed using Unity and c
 For the browsing module, we implemented a browser window using [Vuplex](https://developer.vuplex.com/webview/overview), which enables connection to commercial applications (e.g. web browsers). The interaction was implemented with the pinch and raycast interactors provided by the [Oculus Interaction SDK](https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/), to enable clicking and scrolling of content using hand gestures, respectively.
 
 For the UI adjustment module, we defined an additional set of hand gestures using the [hand pose detection](https://developer.oculus.com/documentation/unity/unity-isdk-hand-pose-detection/) provided by the SDK as well as AR panels to allow window parameters adjustment.
+
+## Environment
+- Required Version
+  - [Unity 2021.3.9f1](https://unity.com/cn/releases/editor/archive)
+  - [Meta Quest Developer Hub v4.8.0](https://developer.oculus.com/meta-quest-developer-hub/)
+- Required Packages
+  - [Oculus XR Plugin 3.0.2](https://developer.oculus.com/documentation/unity/unity-xr-plugin/)
+  - XR Plugin Management 4.2.0
+  - Vuplex 3D WebView for Android and iOS 4.2.2 (for building APK running on headsets)
+  - Vuplex 3D WebView for Windows and macOS 4.2 (for development on PC)
+- Required Running Devices
+  - Meta Quest 2, Pro and 3
